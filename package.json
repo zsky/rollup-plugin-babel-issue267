@@ -1,0 +1,19 @@
+{
+    "name": "rollup-plugin-babel-issue267",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "rollup -c rollup.config.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.1.2",
+        "@vue/babel-preset-app": "^3.0.5",
+        "rollup": "^0.66.6",
+        "rollup-plugin-babel": "^4.0.3"
+    }
+}
